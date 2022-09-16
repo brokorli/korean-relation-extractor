@@ -1,0 +1,10 @@
+repos:
+  - repo: https://github.com/ambv/black
+    rev: ''
+    hooks:
+      - id: black
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: ''
+    hooks:
+      - id: flake8
+        args: [--config=.flake8]
