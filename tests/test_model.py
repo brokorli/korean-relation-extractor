@@ -2,7 +2,6 @@ import unittest
 from brokorli_re.model import ReModel
 
 
-# TestCase를 작성
 class ModelTest(unittest.TestCase):
 
     sentence = "아이유는 1993년 5월 16일에 태어났다."
